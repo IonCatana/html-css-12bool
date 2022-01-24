@@ -1,0 +1,46 @@
+/* Regole di resset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: burlywood;
+}
+.contain{
+  border: 1px solid black;
+  width: 1000px;
+  margin: 0 auto;
+}
+.height{
+  height: 40px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 83.16px;
+}
+/* Debug */
+.debug [class*="col"]{
+  
+  height: 83.16px;
+  
+}
+/* Background Color */
+
+.bg-red {
+  background-color: red;
+}
+.bg-orange {
+  background-color: orange;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-brown {
+  background-color: brown;
+}
+
