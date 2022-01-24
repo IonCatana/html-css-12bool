@@ -1,0 +1,20 @@
+/* Regole di reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+h3 {
+  padding-top: 10px;
+  color: black;
+}
+/* Debug */
+.debug [class*="col"]{
+  background-color: blue;
+  padding: 10px 10px;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+}
