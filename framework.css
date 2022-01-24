@@ -70,10 +70,9 @@
 .height-62px {
   height: 62px;
 }
-.height-80px{
+.height-80px {
   height: 80px;
   display: flex;
-
 }
 
 .margin-top {
@@ -120,6 +119,7 @@
 }
 
 /* Alignment */
+
 .flex-start {
   justify-content: flex-start;
 }
@@ -129,10 +129,17 @@
 .flex-end {
   justify-content: flex-end;
 }
-.align-center{  
+.align-center {
   align-self: center;
-  
 }
-.align-end{
+.align-end {
   align-self: flex-end;
+}
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
 }
